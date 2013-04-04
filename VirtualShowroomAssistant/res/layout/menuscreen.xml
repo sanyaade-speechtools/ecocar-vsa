@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ecocar_blank"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="35"
+        android:text="" />
+    
+    <Button
+        android:id="@+id/bGetStarted"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="10"
+        android:text="Get Started!" />
+    
+    <Button
+        android:id="@+id/bHowTo"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="10"
+        android:text="How To" />
+
+    <Button
+        android:id="@+id/bLeaveFeedback"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="10"
+        android:text="Leave Feedback" />
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="35"
+        android:text="" />
+
+</LinearLayout>

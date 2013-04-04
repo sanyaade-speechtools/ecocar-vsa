@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QR code (abbreviated from Quick Response Code) is the trademark for a type of matrix barcode (or two-dimensional bar code) first designed for the automotive industry in Japan. Bar codes are optical machine-readable labels attached to items that record information related to the item. It was initially patented; however, its patent holder has chosen not to exercise those rights[citation needed]. Recently, the QR Code system has become popular outside the automotive industry due to its fast readability and greater storage capacity compared to standard UPC barcodes. The code consists of black modules (square dots) arranged in a square grid on a white background. The information encoded may be made up of four standardized types (modes) of data (numeric, alphanumeric, byte / binary, Kanji) or, through supported extensions, virtually any type of data."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+            <Button
+                android:id="@+id/bBackButtonHowTo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Go Back" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
